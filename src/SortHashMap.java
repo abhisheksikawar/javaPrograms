@@ -16,7 +16,7 @@ public class SortHashMap {
 		Map<String,String> hm =new HashMap<String,String>();
 		hm.put("33", "A");
 		hm.put("23", "D");
-		hm.put("99", "X");
+		hm.put("99", "A");
 		hm.put("1", "B");
 		hm.put("12", "I");
 		
