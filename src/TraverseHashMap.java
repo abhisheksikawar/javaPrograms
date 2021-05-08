@@ -19,9 +19,9 @@ public class TraverseHashMap {
 //			System.out.println(s + hm.get(s));
 //		}
 		
-//		for(Entry<String, String> s:hm.entrySet() ) {
-//			System.out.println(s);
-//		}
+		for(Entry<String, String> s:hm.entrySet() ) {
+			System.out.println(s);
+		}
 		
 		Set<String> s=hm.keySet();
 		Iterator i=s.iterator();

@@ -59,14 +59,14 @@ class Producer implements Runnable{
 	}
 	
 }
-class Consumer implements Runnable{
+class Consumer1 implements Runnable{
 	
 	Aa a;
 	
 
-	public Consumer(Aa a) {
+	public Consumer1(Aa a) {
 		this.a = a;
-		Thread thread= new Thread(this,"Consumer");
+		Thread thread= new Thread(this,"Consumer1");
 		thread.start();
 	}
 
@@ -93,7 +93,7 @@ public class WaitNotifyMultithreading {
 		// TODO Auto-generated method stub
 		Aa a=new Aa();
 		Producer p=new Producer(a);
-		Consumer c=new Consumer(a);
+		Consumer1 c=new Consumer1(a);
 
 	}
 
