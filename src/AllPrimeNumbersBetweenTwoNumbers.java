@@ -1,0 +1,34 @@
+import java.util.Scanner;
+
+public class AllPrimeNumbersBetweenTwoNumbers {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int n1;
+		int n2;
+		Scanner sc=new Scanner(System.in);
+		n1=sc.nextInt();
+		n2=sc.nextInt();
+		for(int i=n1;i<=n2;i++) {
+		int ans=findPrime(i,2);
+		if(ans==0) {
+		System.out.println("prime="+i);
+		}
+		}
+		
+
+	}
+
+	private static int findPrime(int i,int x) {
+		// TODO Auto-generated method stub
+		if(x<i&&i%x==0) {
+			return 1;
+		}else if(x>i) {
+			return 0;
+			
+		}
+		return findPrime(i, x+1);
+		
+	}
+
+}

@@ -90,6 +90,13 @@ public class SortUsingStream {
 		al.stream().sorted(Comparator
                 .comparing(Employee5::getName)
 ).forEach(s->System.out.println(s));
+		
+		al.stream().sorted((o1,o2)->{
+					return o1.getAddr().getCity().compareTo(o2.getAddr().getCity());
+				
+			
+			
+		}).forEach(s->System.out.println(s));
 
 
 	}
