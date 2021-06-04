@@ -19,15 +19,16 @@ public class AllPrimeNumbersBetweenTwoNumbers {
 
 	}
 
-	private static int findPrime(int i,int x) {
+	private static int findPrime(int n,int i) {
 		// TODO Auto-generated method stub
-		if(x<i&&i%x==0) {
+		if(i<n&&n%i==0) {
 			return 1;
-		}else if(x>i) {
-			return 0;
-			
 		}
-		return findPrime(i, x+1);
+		if(i>n) {
+			return 0;
+		}
+			
+		return findPrime(n, i+1);
 		
 	}
 
