@@ -8,7 +8,7 @@ public class SubsetSum {
 		
 		SubsetSum subsetSum=new SubsetSum();
 		int arr[]=new int[] {2,4,5,7,8,9};
-		System.out.println(subsetSum.sum(arr,6,99));
+		System.out.println(subsetSum.sum(arr,6,9));
 		
 	}
 

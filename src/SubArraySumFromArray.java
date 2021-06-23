@@ -11,7 +11,7 @@ public class SubArraySumFromArray {
         n = 5;
         sum = 10;
  
-        int[] pat = {2, 3, 5, 6, 8, 10};
+        int[] pat = {2, 3, 5, 6, 8, 10,2,8};
          
         f(pat, 0, 0);
          
