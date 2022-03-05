@@ -7,8 +7,8 @@ public class SubsetSum {
 		// TODO Auto-generated method stub
 		
 		SubsetSum subsetSum=new SubsetSum();
-		int arr[]=new int[] {2,4,5,7,8,9};
-		System.out.println(subsetSum.sum(arr,6,9));
+		int arr[]=new int[] {1,2,4,5,7,8,9};
+		System.out.println(subsetSum.sum(arr,7,12));
 		
 	}
 
